@@ -40,9 +40,9 @@
       Execute: dotnet run
 
 # 4. SgaApi (ASP.NET Core Web API server)
-  
-    Execute the commands in the given order
-    
+   
+   Execute the commands in the given order
+
       i.Navigate to /Assignment1/Server/SgaApi
         Execute: dotnet restore
       ii.Navigate to /Assignment1/Server/SgaApi
@@ -54,7 +54,7 @@
   
    Steps involved
    
-   i. Navigate to /Assignment1/UI/Application
-      Open main.html
+     i. Navigate to /Assignment1/UI/Application
+        Open main.html
 
    
