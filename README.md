@@ -57,4 +57,8 @@
      i. Navigate to /Assignment1/UI/Application
         Open main.html
 
-   
+# References: 
+
+     i.  [Getting started - Seneca](http://senecajs.org/getting-started/)
+     ii. [ASP.NET Core 1.1](https://docs.microsoft.com/en-us/dotnet/core/macos-prerequisites)
+     iii.[Spring Tool Suite](https://spring.io/blog/2015/03/18/spring-boot-support-in-spring-tool-suite-3-6-4)
