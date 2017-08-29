@@ -1,9 +1,11 @@
 # madrinathapa
 
-#Start the services in the given order
+# Start the services in the given order
 
-#1. Microservice 1 - Hello-world (node.js)
-  Execute the commands in the given order
+# 1. Microservice 1 - Hello-world (node.js)
+  
+  # Execute the commands in the given order
+  
     i. npm install seneca —save
     ii. npm install express —save
     iii. npm install seneca-web —save
@@ -13,8 +15,9 @@
     vi. Navigate to /Assignment1/Services/hello-world
       Execute: node index.js   
 
-#2. Microservice 2 - Circle (Spring Boot)
-  Execute the commands in the given order
+# 2. Microservice 2 - Circle (Spring Boot)
+
+  # Execute the commands in the given order
   
     i.Navigate to /Assignment1/Services/Circle
       Execute: ./mvnw spring-boot:run (Run)
@@ -23,11 +26,11 @@
     iii.Navigate to /Assignment1/Services/Circle
       Execute: java -jar target/Circle-0.0.1-SNAPSHOT.jar (Run the JAR file)
 
-#3. Microservice 3 - Square(ASP.NET Core)
+# 3. Microservice 3 - Square(ASP.NET Core)
 
-  Install the [ASP.NET Core 1.1] (https://github.com/dotnet/core/blob/master/release-notes/download-archive.md) . 
+  Install the [ASP.NET Core 1.1](https://github.com/dotnet/core/blob/master/release-notes/download-archive.md) . 
   
-  Execute the commands in the given order
+  # Execute the commands in the given order
   
     i.Navigate to /Assignment1/Services/Square
       Execute: dotnet restore
@@ -36,9 +39,10 @@
     iii.Navigate to /Assignment1/Services/Square/Square
       Execute: dotnet run
 
-#4. SgaApi (ASP.NET Core Web API server)
+# 4. SgaApi (ASP.NET Core Web API server)
   
-    #Execute the commands in the given order
+    # Execute the commands in the given order
+    
       i.Navigate to /Assignment1/Server/SgaApi
         Execute: dotnet restore
       ii.Navigate to /Assignment1/Server/SgaApi
