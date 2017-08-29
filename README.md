@@ -49,5 +49,12 @@
         Execute: dotnet build
       iii.Navigate to /Assignment1/Server/SgaApi/SgaApi
         Execute: dotnet run
+
+# 5 User Interface
+  
+   Steps involved
    
+   i. Navigate to /Assignment1/UI/Application
+      Open main.html
+
    
