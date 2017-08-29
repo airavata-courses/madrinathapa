@@ -4,7 +4,7 @@
 
 # 1. Microservice 1 - Hello-world (node.js)
   
-  # Execute the commands in the given order
+  Execute the commands in the given order
   
     i. npm install seneca —save
     ii. npm install express —save
@@ -17,7 +17,7 @@
 
 # 2. Microservice 2 - Circle (Spring Boot)
 
-  # Execute the commands in the given order
+   Execute the commands in the given order
   
     i.Navigate to /Assignment1/Services/Circle
       Execute: ./mvnw spring-boot:run (Run)
@@ -28,9 +28,9 @@
 
 # 3. Microservice 3 - Square(ASP.NET Core)
 
-  Install the [ASP.NET Core 1.1](https://github.com/dotnet/core/blob/master/release-notes/download-archive.md) . 
+  Install [ASP.NET Core 1.1](https://github.com/dotnet/core/blob/master/release-notes/download-archive.md) . 
   
-  # Execute the commands in the given order
+   Execute the commands in the given order
   
     i.Navigate to /Assignment1/Services/Square
       Execute: dotnet restore
@@ -41,7 +41,7 @@
 
 # 4. SgaApi (ASP.NET Core Web API server)
   
-    # Execute the commands in the given order
+    Execute the commands in the given order
     
       i.Navigate to /Assignment1/Server/SgaApi
         Execute: dotnet restore
