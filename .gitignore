@@ -26,3 +26,5 @@ Assignment1/Services/.metadata/.plugins/org.eclipse.core.resources/.projects/get
 Assignment1/Services/RemoteSystemsTempFiles/.project
 
 *.access
+
+*.index
