@@ -16,16 +16,16 @@
     vii. Navigate to /Assignment1/Services/hello-world
       Execute: node index.js   
 
-# 2. Microservice 2 - Circle (Spring Boot)
+# 2. Microservice 2 - Circle (Flask with Python)
 
-   Execute the commands in the given order
-  
-    i.Navigate to /Assignment1/Services/Circle
-      Execute: ./mvnw spring-boot:run (Run)
-    ii.Navigate to /Assignment1/Services/Circle
-      Execute: ./mvnw clean package (Build the JAR file)
-    iii.Navigate to /Assignment1/Services/Circle
-      Execute: java -jar target/Circle-0.0.1-SNAPSHOT.jar (Run the JAR file)
+   Installations
+    i. Install Python from [here](https://www.python.org/downloads/)
+    ii. Install Flask from [here](http://flask.pocoo.org/docs/0.12/installation/)
+    iii. Install Requests from [here](http://docs.python-requests.org/en/master/user/install/)
+         pipenv install requests
+    
+    To run the service navigate to /Assignment1/Services/Circle-Service
+    Execute: python circle.py
 
 # 3. Microservice 3 - Square(ASP.NET Core)
 
