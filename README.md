@@ -19,13 +19,14 @@
 # 2. Microservice 2 - Circle (Flask with Python)
 
    Installations
-    i. Install Python from [here](https://www.python.org/downloads/)
-    ii. Install Flask from [here](http://flask.pocoo.org/docs/0.12/installation/)
-    iii. Install Requests from [here](http://docs.python-requests.org/en/master/user/install/)
-         pipenv install requests
-    
-    To run the service navigate to /Assignment1/Services/Circle-Service
-    Execute: python circle.py
+   
+      i. Install Python from [here](https://www.python.org/downloads/)
+      ii. Install Flask from [here](http://flask.pocoo.org/docs/0.12/installation/)
+      iii. Install Requests from [here](http://docs.python-requests.org/en/master/user/install/)
+           pipenv install requests
+
+      To run the service navigate to: /Assignment1/Services/Circle-Service
+      Execute: python circle.py
 
 # 3. Microservice 3 - Square(ASP.NET Core)
 
