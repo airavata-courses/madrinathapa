@@ -6,15 +6,14 @@
   
   Execute the commands in the given order
   
-    i. npm install seneca --save
-    ii. npm install express --save
-    iii. npm install seneca-web --save
-    iv. npm install seneca-web-adapter-express --save
-    v. npm install body-parser --save
-    vi. Navigate to /Assignment1/Services/hello-world
-      Execute: node greet-service.js
-    vii. Navigate to /Assignment1/Services/hello-world
-      Execute: node index.js   
+    Navigate to /Assignment1/Services/hello-world
+      i. npm install seneca --save
+      ii. npm install express --save
+      iii. npm install seneca-web --save
+      iv. npm install seneca-web-adapter-express --save
+      v. npm install body-parser --save
+      vi. node greet-service.js
+      vii.node index.js   
 
 # 2. Microservice 2 - Circle (Flask with Python)
 
