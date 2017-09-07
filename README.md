@@ -15,19 +15,7 @@
       vi. node greet-service.js
       vii.node index.js   
 
-# 2. Microservice 2 - Circle (Flask with Python)
-
-   Installations
-   
-      i. Install Python from [here](https://www.python.org/downloads/)
-      ii. Install Flask from [here](http://flask.pocoo.org/docs/0.12/installation/)
-      iii. Install Requests from [here](http://docs.python-requests.org/en/master/user/install/)
-           pipenv install requests
-
-      To run the service navigate to: /Assignment1/Services/Circle-Service
-      Execute: python circle.py
-
-# 3. Microservice 3 - Square(ASP.NET Core)
+# 2. Microservice 3 - Square(ASP.NET Core)
 
   Install [ASP.NET Core 1.1](https://github.com/dotnet/core/blob/master/release-notes/download-archive.md) . 
   
@@ -40,7 +28,7 @@
     iii.Navigate to /Assignment1/Services/Square/Square
       Execute: dotnet run
 
-# 4. SgaApi (ASP.NET Core Web API server)
+# 3. SgaApi (ASP.NET Core Web API server)
    
    Execute the commands in the given order
 
@@ -51,7 +39,7 @@
       iii.Navigate to /Assignment1/Server/SgaApi/SgaApi
         Execute: dotnet run
 
-# 5 User Interface
+# 4 User Interface
   
    Steps involved
    
