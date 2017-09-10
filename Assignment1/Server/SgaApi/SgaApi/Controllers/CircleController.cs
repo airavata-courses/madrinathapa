@@ -20,10 +20,10 @@ namespace SgaApi.Controllers
 		// GET api/values/5
 		[HttpGet("{radius}")]
 		[EnableCors("MyPolicy")]
-        public async Task<string> Get(float radius)
+        public string Get(float radius)
         {
 			HttpCall objHttp = new HttpCall();
-			return await objHttp.GetCircleArea(radius);
+			return objHttp.GetCircleArea(radius);
         }
 
 		// POST api/values

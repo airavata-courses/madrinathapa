@@ -7,21 +7,14 @@ namespace SgaApi.Business
 {
     public class HttpCall
     {
-        public async System.Threading.Tasks.Task<string> GetGreetingAsync(string name)
+        public string GetGreetingAsync(string name)
         {
             try
             {
-                var client = new HttpClient();
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(
-                    new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
-                client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
+                Publisher objPub = new Publisher();
+                objPub.SendMessage("greet", name);
 
-                var stringTask = client.GetStringAsync("http://localhost:3000/api/first/hello?name=" + name);
-
-                var response = await stringTask;
-				JToken objGreet = JToken.Parse(response);
-				string greet = objGreet["result"].Value<string>();
+                string response = "";
                 return response;
             }
             catch (System.Exception ex)
@@ -30,20 +23,15 @@ namespace SgaApi.Business
             }
         }
 
-        public async System.Threading.Tasks.Task<string> GetCircleArea(float radius)
+        public string GetCircleArea(float radius)
         {
             try
-            {
-                var client = new HttpClient();
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(
-                    new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
-                client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
+			{
+				Publisher objPub = new Publisher();
+                objPub.SendMessage("circle", radius.ToString());
 
-                var stringTask = client.GetStringAsync("http://localhost:8080/getCircleArea?radius=" + radius);
-
-				var response = await stringTask;
-                return response;
+				string response = "";
+				return response;
             }
             catch (System.Exception ex)
             {
@@ -51,19 +39,13 @@ namespace SgaApi.Business
             }
         }
 
-        public async System.Threading.Tasks.Task<string> GetSquareArea(float side)
+        public string GetSquareArea(float side)
         {
             try
-            {
-                var client = new HttpClient();
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(
-                    new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
-                client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
-
-                var stringTask = client.GetStringAsync("http://localhost:5000/api/square/" + side);
-
-                var response = await stringTask;
+			{
+				Publisher objPub = new Publisher();
+                objPub.SendMessage("square", side.ToString());
+                string response = "";
                 return response;
             }
             catch (System.Exception ex)
