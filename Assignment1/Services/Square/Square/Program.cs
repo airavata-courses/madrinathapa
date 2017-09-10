@@ -20,6 +20,16 @@ namespace Square
                 .Build();
 
             host.Run();
+            StartProcess();
         }
+
+        public static void StartProcess(){
+            while(true){
+                //The message from the request queue
+                Console.Write("adas");
+			}
+			//Write the message back to the response queue
+
+		}
     }
 }
