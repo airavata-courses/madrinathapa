@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using Square_Service.Entities;
 
 namespace Square_Service.Business
 {
@@ -11,8 +12,10 @@ namespace Square_Service.Business
             try
             {
                 float s = float.Parse(side, CultureInfo.InvariantCulture.NumberFormat);
-                float area = s * s;
-                result = "Area of a square with side " + side + " is: " + area;
+				EnSquare objSq = new EnSquare();
+				objSq.Side = s;
+				objSq.Area = s * s;
+                result = Newtonsoft.Json.JsonConvert.SerializeObject(objSq);
             }
             catch (Exception ex)
             {

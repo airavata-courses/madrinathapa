@@ -6,7 +6,6 @@ namespace Square_Service
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
             StartProcess();
         }
         public static void StartProcess(){
