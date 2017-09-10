@@ -40,7 +40,6 @@ jQuery(function ($) {
         alert("Third Service is called!");
         var uri = "http://localhost:4099/api/square/"+side;
         $.getJSON(uri, function(result){
-          alert(result);
           var result = "Area of a square with side " + result.Side + " is: " + result.Area;
           $("#square").html("<br/><div class='alert alert-success'>"+result+"</div>");
         });
