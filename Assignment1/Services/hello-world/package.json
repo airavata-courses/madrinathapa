@@ -10,6 +10,7 @@
   "author": "Madrina Thapa",
   "license": "MIT",
   "dependencies": {
+    "amqplib": "^0.5.1",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "seneca": "^3.4.2",

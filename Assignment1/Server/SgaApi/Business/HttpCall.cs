@@ -14,9 +14,8 @@ namespace SgaApi.Business
                 Publisher objPub = new Publisher();
                 objPub.SendMessage("greet", name);
 
-				Consumer objConsume = new Consumer();
-				string response = objConsume.ConsumeMessage("greetresponse");
-				return response;
+                string response = "";
+                return response;
             }
             catch (System.Exception ex)
             {
@@ -30,8 +29,8 @@ namespace SgaApi.Business
 			{
 				Publisher objPub = new Publisher();
                 objPub.SendMessage("circle", radius.ToString());
-				Consumer objConsume = new Consumer();
-				string response = objConsume.ConsumeMessage("circleresponse");
+
+				string response = "";
 				return response;
             }
             catch (System.Exception ex)

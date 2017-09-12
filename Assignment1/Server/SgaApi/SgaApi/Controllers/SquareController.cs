@@ -22,10 +22,10 @@ namespace SgaApi.Controllers
 		// GET api/values/5
 		[HttpGet("{side}")]
 		[EnableCors("MyPolicy")]
-        public async System.Threading.Tasks.Task<string> Get(float side)
+        public string Get(float side)
         {
             HttpCall objHttp = new HttpCall();
-            return await objHttp.GetSquareArea(side);
+            return objHttp.GetSquareArea(side);
         }
 
 		// POST api/values
