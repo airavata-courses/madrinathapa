@@ -16,7 +16,7 @@
       ii. npm install amqplib
       iii.node main.js   
       
-# 3. Microservice 2 - Circle (Flask with Python)
+# 3. Microservice 2 - Circle-Servie (Python)
 
    Installations
     
@@ -28,7 +28,7 @@
        To run the service navigate to: /Assignment1/Services/Circle-Service
        Execute: python circleRabbitMQ.py
  
-# 4. Microservice 3 - Square(ASP.NET Core)
+# 4. Microservice 3 - Square-Service(ASP.NET Core)
 
   Install [ASP.NET Core 1.1](https://github.com/dotnet/core/blob/master/release-notes/download-archive.md) . 
   
@@ -38,7 +38,7 @@
       Execute: dotnet restore
     ii.Navigate to /Assignment1/Services/Square-Service
       Execute: dotnet build
-    iii.Navigate to /Assignment1/Services/Square-Service/Square-Service
+    iii.Navigate to /Assignment1/Services/Square-Service
       Execute: dotnet run
 
 # 5. SgaApi (ASP.NET Core Web API server)
