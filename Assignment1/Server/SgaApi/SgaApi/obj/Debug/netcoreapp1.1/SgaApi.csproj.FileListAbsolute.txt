@@ -1,0 +1,17 @@
+/Users/madrinathapa/Documents/workspace/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.deps.json
+/Users/madrinathapa/Documents/workspace/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.runtimeconfig.json
+/Users/madrinathapa/Documents/workspace/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.runtimeconfig.dev.json
+/Users/madrinathapa/Documents/workspace/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.dll
+/Users/madrinathapa/Documents/workspace/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.pdb
+/Users/madrinathapa/Documents/workspace/SgaApi/SgaApi/obj/Debug/netcoreapp1.1/SgaApi.csproj.CoreCompileInputs.cache
+/Users/madrinathapa/Documents/workspace/SgaApi/SgaApi/obj/Debug/netcoreapp1.1/SgaApi.AssemblyInfo.cs
+/Users/madrinathapa/Documents/workspace/SgaApi/SgaApi/obj/Debug/netcoreapp1.1/SgaApi.dll
+/Users/madrinathapa/Documents/workspace/SgaApi/SgaApi/obj/Debug/netcoreapp1.1/SgaApi.pdb
+/Users/madrinathapa/Documents/workspace/madrinathapa/Assignment1/Server/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.deps.json
+/Users/madrinathapa/Documents/workspace/madrinathapa/Assignment1/Server/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.runtimeconfig.json
+/Users/madrinathapa/Documents/workspace/madrinathapa/Assignment1/Server/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.runtimeconfig.dev.json
+/Users/madrinathapa/Documents/workspace/madrinathapa/Assignment1/Server/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.dll
+/Users/madrinathapa/Documents/workspace/madrinathapa/Assignment1/Server/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.pdb
+/Users/madrinathapa/Documents/workspace/madrinathapa/Assignment1/Server/SgaApi/SgaApi/obj/Debug/netcoreapp1.1/SgaApi.AssemblyInfo.cs
+/Users/madrinathapa/Documents/workspace/madrinathapa/Assignment1/Server/SgaApi/SgaApi/obj/Debug/netcoreapp1.1/SgaApi.dll
+/Users/madrinathapa/Documents/workspace/madrinathapa/Assignment1/Server/SgaApi/SgaApi/obj/Debug/netcoreapp1.1/SgaApi.pdb
