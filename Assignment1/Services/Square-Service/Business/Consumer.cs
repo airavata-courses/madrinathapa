@@ -11,12 +11,11 @@ namespace Square_Service.Business
         {
             try
             {
-                var factory = new ConnectionFactory() { HostName = "rmq-container" };
+                var factory = new ConnectionFactory() { HostName = "127.0.0.1" };
                 using (var connection = factory.CreateConnection())
                 using (var channel = connection.CreateModel())
                 {
-                    channel.ExchangeDeclare(exchange: "amq.direct", type: "direct", durable:true);
-                    var queueName = channel.QueueDeclare().QueueName;
+                    channel.ExchangeDeclare(exchange: "amq.direct", type: "direct", durable: true);
 
                     Console.WriteLine(" [*] Waiting for messages.");
                     Publisher objPub = new Publisher();
