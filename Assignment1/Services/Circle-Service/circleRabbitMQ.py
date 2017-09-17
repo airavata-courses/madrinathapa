@@ -3,7 +3,7 @@ import sys
 import json
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(
-        host='localhost'))
+        host='rmq-container'))
 channel = connection.channel()
 
 channel.exchange_declare(exchange='amq.direct',
@@ -12,10 +12,13 @@ channel.exchange_declare(exchange='amq.direct',
 result = channel.queue_declare(exclusive=True)
 queue_name = result.method.queue
 
+print("queue name %r" % (queue_name))
 
-channel.queue_bind(exchange='amq.direct',
-                       queue="circle",
-                       routing_key="circle")
+binding_key = "circle"
+channel.queue_bind(exchange="amq.direct",
+                  queue=queue_name,
+                  routing_key=binding_key)
+
 
 print(' [*] Waiting for logs. To exit press CTRL+C')
 
@@ -46,8 +49,11 @@ def callback(ch, method, properties, body):
     pub(result)
     print(" [x] %r:%r" % (method.routing_key, body))
 
+result = channel.queue_declare(exclusive=True)
+queue_name = result.method.queue
+
 channel.basic_consume(callback,
-                      queue="circle",
+                      queue=queue_name,
                       no_ack=True)
 
 channel.start_consuming()
