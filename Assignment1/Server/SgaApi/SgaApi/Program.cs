@@ -13,11 +13,11 @@ namespace SgaApi
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()
-                .UseKestrel()
+				.UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
 				.UseStartup<Startup>()
-			    .UseUrls("http://localhost:4099")
+			    .UseUrls("http://127.0.0.1")
                 .Build();
 
             host.Run();

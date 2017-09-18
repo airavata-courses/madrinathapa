@@ -14,12 +14,12 @@ namespace SgaApi.Business
 			try
 			{
 			    ManualResetEvent manualResetEvent = new ManualResetEvent(false);
-				var factory = new ConnectionFactory() { HostName = "localhost" };
+				var factory = new ConnectionFactory() { HostName ="129.114.104.76", UserName = "test", Password = "test" };
 				using (var connection = factory.CreateConnection())
 				using (var channel = connection.CreateModel())
 				{
-					channel.ExchangeDeclare(exchange: "amq.direct", type: "direct", durable: true);
-					var queueName = channel.QueueDeclare().QueueName;
+					//channel.ExchangeDeclare(exchange: "amq.direct", type: "direct", durable: true);
+					//var queueName = channel.QueueDeclare().QueueName;
 
 					Console.WriteLine(" [*] Waiting for messages.");
 
@@ -32,8 +32,6 @@ namespace SgaApi.Business
 						var routingKey = ea.RoutingKey;
                         result = message;
                         manualResetEvent.Set();
-						//channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
-						//Console.WriteLine(" [x] Received '{0}':'{1}'", routingKey, message);
 					};
                     if(!string.IsNullOrEmpty(result)){
                         return result;
