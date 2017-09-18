@@ -10,7 +10,7 @@ namespace Square_Service.Business
         {
             try
             {
-                var factory = new ConnectionFactory() { HostName = "127.0.0.1" };
+                var factory = new ConnectionFactory() {HostName = "129.114.104.76", UserName = "test", Password = "test"};
                 using (var connection = factory.CreateConnection())
                 using (var channel = connection.CreateModel())
                 {
