@@ -23,4 +23,7 @@
     <Compile Remove="Controllers\ValuesController.cs" />
     <Compile Remove="Controllers\SgaController.cs" />
   </ItemGroup>
+   <ItemGroup>
+  <DotNetCliToolReference Include=" "Microsoft.AspNetCore.Server.IISIntegration.Tools" Version="1.1.0-preview4-final" />
+  </ItemGroup>
 </Project>
