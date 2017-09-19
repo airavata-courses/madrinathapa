@@ -14,6 +14,7 @@ FROM microsoft/aspnetcore:1.0
 WORKDIR /app
 COPY --from=build-env /app/out .
 
-EXPOSE 58912
+ENV ASPNETCORE_URLS http://+:58912
+EXPOSE 58912 3099 5000 8000 4099
 
 ENTRYPOINT ["dotnet", "SgaApi.dll"]
