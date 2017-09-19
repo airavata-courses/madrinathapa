@@ -34,3 +34,5 @@ Assignment1/Server/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.dll
 Assignment1/Server/SgaApi/SgaApi/bin/Debug/netcoreapp1.1/SgaApi.pdb
 
 Assignment1/Server/SgaApi/SgaApi/obj/Debug/netcoreapp1.1/SgaApi.csproj.CoreCompileInputs.cache
+
+Assignment1/Services/Square/.gitignore.swp
