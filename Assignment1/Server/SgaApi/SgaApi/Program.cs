@@ -17,7 +17,7 @@ namespace SgaApi
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
 				.UseStartup<Startup>()
-			    .UseUrls("http://127.0.0.1")
+			    .UseUrls("http://localhost:58912")
                 .Build();
 
             host.Run();
