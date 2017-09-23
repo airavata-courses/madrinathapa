@@ -2,6 +2,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Business\" />

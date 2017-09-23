@@ -1,13 +1,6 @@
-FROM microsoft/aspnetcore-build:1.1 AS build-env
+FROM node:8.2.1
 WORKDIR /app
-
-# Copy csproj and restore as distinct layers
-COPY . ./
-RUN dotnet restore
-
-# Copy everything else and build
-RUN dotnet build
-RUN dotnet publish 
-
-# Build runtime image
-ENTRYPOINT ["dotnet", "run"]
+COPY package.json /app
+RUN npm install
+COPY . /app
+CMD node main.js
