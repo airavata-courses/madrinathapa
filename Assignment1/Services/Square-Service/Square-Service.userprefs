@@ -1,0 +1,12 @@
+﻿<Properties StartupConfiguration="{347FFBFC-FB51-4BEE-A18F-4DF759C7ADDF}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/madrinathapa/Documents/workspace/madrinathapa/Assignment1/Services/Square-Service/Business/Consumer.cs" relfile="Business/Consumer.cs" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Square-Service PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
