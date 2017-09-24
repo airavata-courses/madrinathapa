@@ -13,7 +13,7 @@ amqp.connect('amqp://test:test@129.114.104.76', function(err, conn) {
     ch.bindQueue(queue, ex, "greet");
     
     ch.consume(queue, function(msg) {
-        var response = JSON.stringify({ result: "Welcome "+ msg.content.toString() +"!" });
+        var response = JSON.stringify({ result: "Welcome "+ msg.content.toString() +"!!!!!" });
         ch.publish(ex, "greetresponse", new Buffer(response));
         console.log(" [x] Sent %s: '%s'", "greetresponse", response);
       }, {noAck: true});
