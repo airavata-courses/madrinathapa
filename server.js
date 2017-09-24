@@ -55,7 +55,7 @@ app.get('/square',function(req,res){
 		conn.createChannel(function(err, ch) {
 		var exchange = 'amq.direct';
 	    var routingKey = 'square';
-	    var msg = req.query.name;
+	    var msg = req.query.side;
 
 	    ch.assertExchange(exchange, 'direct', {durable: true});
 	    ch.publish(exchange, routingKey, Buffer.from(msg));
